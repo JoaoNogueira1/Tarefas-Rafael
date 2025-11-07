@@ -1,0 +1,7 @@
+package Tamagotchi;
+
+public class Gato extends Animal {
+    public Gato() {
+        super("Gato");
+    }
+}
