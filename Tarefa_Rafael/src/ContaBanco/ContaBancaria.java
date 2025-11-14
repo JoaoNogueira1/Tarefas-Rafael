@@ -22,7 +22,6 @@ public class ContaBancaria {
         return this.saldo + this.limite;
     }
 
-    // SACAR
     public boolean sacar(double valor) throws ContaException {
 
         if (valor > 500) {
